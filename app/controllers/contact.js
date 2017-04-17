@@ -19,7 +19,8 @@ export default Ember.Controller.extend({
       alert(`Email Address: ${this.get('emailAddress')}
              Message: ${this.get('message')}`) 
       this.set('responseMessage', "Thank you for your feedback!");
-      this.set('emailAddress', '');       
+      this.set('emailAddress', '');      
+      this.set('message', ''); 
     }      
   } 
 
